@@ -27,6 +27,5 @@ Pod::Spec.new do |spec|
 
 	# ――― Dependency ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 	spec.dependency 'OasisFramework', '~> 0.1.0'
-	spec.dependency 'OasisSQLite', '~> 0.1.0'
 
 end
