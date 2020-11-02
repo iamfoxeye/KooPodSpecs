@@ -14,7 +14,8 @@ Pod::Spec.new do |spec|
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.source       = { :git => "https://github.com/iamfoxeye/OasisUI.git", :tag => "#{spec.version}" }
-  spec.source_files = "OasisUI/OasisUI/**/*.{swift}"
+  spec.source_files = "OasisUI/OasisUI/sources/**/*.{swift}"
+  spec.resources    = "OasisUI/OasisUI/resources/**/*.{png}"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
