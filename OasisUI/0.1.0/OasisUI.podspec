@@ -16,11 +16,16 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/iamfoxeye/OasisUI.git", :tag => "#{spec.version}" }
   spec.source_files = "OasisUI/OasisUI/sources/**/*.{swift}"
   spec.resources    = "OasisUI/OasisUI/resources/**/*.{png}"
+  # spec.resources    = ["OasisUI/OasisUI/resources/**/*.{png}", "OasisUI/OasisUI/support/**/*.{xcassets, lproj}"]
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.swift_version = "5.2.4"
   spec.platform      = :ios, "13.0"
   spec.requires_arc  = true
+
+
+  # ――― Dependency ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  spec.dependency 'OasisFramework', '~> 0.1.0'
 
 end
