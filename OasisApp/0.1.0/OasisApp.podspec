@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
 
 	# ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 	spec.swift_version = "5.3"
-	spec.platform      = :ios, "13.0"
+	spec.platform      = :ios, "14.0"
 	spec.requires_arc  = true
 
 	# ――― Dependency ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
