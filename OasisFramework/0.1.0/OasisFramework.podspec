@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.source       = { :git => "https://github.com/iamfoxeye/OasisFramework.git", :tag => "#{spec.version}" }
   spec.source_files = "OasisFramework/OasisFramework/sources/**/*.{swift}"
-  #spec.resources    = "OasisFramework/OasisFramework/resources/**/*.{png}"
+  spec.resources    = ["OasisFramework/OasisFramework/support/OasisFramework.h"]
   #spec.resources    = ["OasisFramework/OasisFramework/resources/**/*.{png}", "OasisFramework/OasisFramework/support/**/*.{xcassets,lproj,strings}"]
 
 
